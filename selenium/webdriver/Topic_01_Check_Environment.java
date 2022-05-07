@@ -20,6 +20,7 @@ public class Topic_01_Check_Environment {
 		System.setProperty("webdriver.gecko.driver", projectPath + "/browserDrivers/geckodriver");
 		driver = new FirefoxDriver();
 		
+		//Change
 		
 //		System.setProperty("webdriver.chrome.driver", projectPath + "/browserDrivers/chromedriver");
 //		driver = new ChromeDriver();
