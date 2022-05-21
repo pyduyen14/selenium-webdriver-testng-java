@@ -159,4 +159,8 @@ public class Topic_04_Xpath_Register {
 		Assert.assertEquals(driver.findElement(By.id("txtPhone-error")).getText(), "Số điện thoại bắt đầu bằng: 09 - 03 - 012 - 016 - 018 - 019");		
 	}
 
+	@AfterClass
+	public void afterClass() {
+		driver.quit();
+	}
 }
