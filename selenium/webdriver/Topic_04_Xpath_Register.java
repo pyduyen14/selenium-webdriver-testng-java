@@ -63,7 +63,7 @@ public class Topic_04_Xpath_Register {
 				
 		// Kiểm tra 1 điều kiện trả về là đúng
 		Assert.assertEquals(driver.findElement(By.id("txtEmail-error")).getText(), "Vui lòng nhập email hợp lệ");
-		Assert.assertEquals(driver.findElement(By.id("txtCEmail-error")).getText(), "Email nhập lại không đúng");
+		Assert.assertEquals(driver.findElement(By.id("txtCEmail-error")).getText(), "Vui lòng nhập email hợp lệ");
 	}
 
 	@Test
