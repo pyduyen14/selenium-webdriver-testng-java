@@ -162,11 +162,11 @@ public class Topic_06_Textbox_TextArea {
 	}
 	
 	// Sleep cứng (Static wait)
-		public void sleepInSecond(long timeInSecond) {
-			try {
-				
-			} catch (Exception e) {
-				e.printStackTrace();
-			}
+	public void sleepInSecond(long timeInSecond) {
+		try {
+			Thread.sleep(timeInSecond * 1000);
+		} catch (Exception e) {
+			e.printStackTrace();
 		}
+	}
 }
